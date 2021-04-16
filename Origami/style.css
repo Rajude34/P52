@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(245, 107, 16);
+    margin: 0px;
+}
+
+h1{
+    color: rgb(226, 43, 43);
+    margin-left:200
+}
+
+
+.Name{
+    background-color: rgb(115, 255, 0);
+    display:flex;
+    justify-content:space-between;
+}
+
+.camel{
+background-color: rgb(162, 0, 255);
+
+}
+
+p,h2{
+    text-align: center;
+}
+
+.chameleon{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    background-color: rgb(255, 0, 0);
+
+}
+
+.pigeon{
+    background-color: rgb(0, 153, 255);
+    
+    
+}
+
+.teddy-bear{
+
+    background-color: rgb(255, 0, 234);
+    display:flex;
+    justify-content:flex-end;
+}
+
+.panda{
+
+    background-color: rgb(255, 102, 0);
+    display:flex;
+    justify-content:flex-end;
+}
+
+.flying-cicada{
+
+    background-color: rgb(189, 92, 137);
+    display:flex;
+    justify-content:flex-end;
+}
+
+.grid img{
+border:2px solid #FF0000;
+border-radius: 50px;
+}
+
+.origami{
+
+    border-radius: 20px;
+    background-color: #00FF9D;
+    padding: 30px;
+    margin: 25px;
+    width: 310px; 
+    font-family: fantasy;
+
+
+}
+
+.menu{
+
+    display:flex;
+    justify-content: space-between;
+    background-color: #C06DEC;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: FF00B5;
+}
+
+a:link{
+    color: white
+}
+
+a:visited{
+    color:white
+}
+
+.origami:hover{
+transform: scale(1,2);
+}
